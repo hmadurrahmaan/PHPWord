@@ -14,7 +14,7 @@ $phpWord->getSettings()->setThemeFontLang($languageEnGb);
 
 $fontStyleName = 'rStyle';
 $phpWord->addFontStyle($fontStyleName, ['bold' => true, 'italic' => true, 'size' => 16, 'allCaps' => true, 'doubleStrikethrough' => true]);
-
+// New Word Document (ryt) tnt;[]\
 $paragraphStyleName = 'pStyle';
 $phpWord->addParagraphStyle($paragraphStyleName, ['alignment' => \PhpOffice\PhpWord\SimpleType\Jc::CENTER, 'spaceAfter' => 100]);
 
